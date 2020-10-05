@@ -36,6 +36,7 @@ $routes->setAutoRoute(true);
 // route akses ke data audit
 $routes->get('pjw/', 'PJW::index');
 $routes->get('pjw/tambah_data_audit', 'PJW::tambah_data');
+$routes->get('pjw/data_audit', 'PJW::data_audit');
 
 /**
  * --------------------------------------------------------------------

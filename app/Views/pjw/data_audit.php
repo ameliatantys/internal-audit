@@ -10,17 +10,18 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
-      <h4 class="text-center">Data Internal Audit</h3>
-        <h4 class="text-center">Yayasan Kesehatan Telkom</h3>
+      <h4 class="text-center"> Internal Audit ISO:0707 E-Medical Center Buah Batu</h3>
+        <h4 class="text-center">Lokasi Area Yakes Jawa Barat</h3>
     </div>
   </div>
 </div>
 
-<!-- <br>
+<!-- Button tambah data -->
+<br>
 <div class="container">
-  <button type="button" class="btn btn-danger">Tambah Data</button>
+  <button type="button" class="btn btn-danger">Tambah Deskripsi</button>
 </div>
-<br> -->
+
 
 
 <br>
@@ -82,113 +83,35 @@
         <thead>
           <tr>
             <th class="text-center">No</th>
-            <th class="text-center">Jenis</th>
-            <th class="text-center">Judul</th>
-            <th class="text-center">Tahun</th>
-            <th class="text-center">Area</th>
+            <th class="text-center">Unit</th>
+            <th class="text-center">Deskripsi</th>
+            <th class="text-center">Kategori</th>
+            <th class="text-center">Akar Masalah</th>
+            <th class="text-center">Tindakan Koreksi</th>
+            <th class="text-center">Tindakan Korektif</th>
+            <th class="text-center">PIC</th>
+            <th class="text-center">Tenggat Waktu</th>
             <th class="text-center">Status</th>
             <th class="text-center">Aksi</th>
+
           </tr>
         </thead>
         <tbody>
           <tr>
             <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
+            <td class="text-center">SDM</td>
+            <td class="text-center">5.4 Organizational Roles, Responsibilities, and Authoritie E-Medical Center Buah Batu sudah memiliki tim CMT
+              dan terdokumentasikan namun belum dilakukan update sehingga beberapa personil yang resign atau ganti
+              petugas belum terupdate di dokumen CHT.</td>
+            <td class="text-center">OFI</td>
+            <td class="text-center">Belum dilakukan review Tim CMT</td>
+            <td class="text-center">Kalau ada tim CHT yang mengalami personir langsung dilakukan update Tim CMTnya</td>
+            <td class="text-center"> </td>
+            <td class="text-center">Aulia Devinna Annisafitri</td>
+            <td class="text-center">11 November 2020</td>
+            <td class="text-center">Sedang Diaudit</td>
             <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
-          </tr>
-          <tr>
-            <td class="text-center">1</td>
-            <td class="text-center">Internal ISMS</td>
-            <td class="text-center">ISO200781:2002 TPK Sriwidjaya</td>
-            <td class="text-center">2020</td>
-            <td class="text-center">Yakes Jawa Timur</td>
-            <td class="text-center">OPEN</td>
-            <td class="text-center">1</td>
+
           </tr>
         </tbody>
       </table>

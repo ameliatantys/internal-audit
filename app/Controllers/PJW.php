@@ -10,7 +10,7 @@ class PJW extends BaseController
       'title' => 'Data Sistem Internal Audit'
     ];
 
-    return view('pjw/data_audit', $data);
+    return view('pjw/judul_audit', $data);
   }
 
   public function tambah_data()
@@ -21,6 +21,16 @@ class PJW extends BaseController
 
     return view('pjw/tambah_data_audit', $data);
   }
+
+  public function data_audit()
+  {
+    $data = [
+      'title' => 'Data Audit | Sistem internal Audit Yayasan Kesehatan Telkom'
+    ];
+
+    return view('pjw/data_audit', $data);
+  }
+
 
   public function tambah_detail_audit()
   {
