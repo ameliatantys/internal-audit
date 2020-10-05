@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class PJW extends BaseController
+class Manajer extends BaseController
 {
   public function index()
   {
@@ -10,17 +10,9 @@ class PJW extends BaseController
       'title' => 'Sistem Internal Audit'
     ];
 
-    return view('pjw/judul_audit', $data);
+    return view('manajer/judul_audit', $data);
   }
 
-  public function tambah_data()
-  {
-    $data = [
-      'title' => 'Tambah Data Audit'
-    ];
-
-    return view('pjw/tambah_data_audit', $data);
-  }
 
   public function data_audit()
   {
@@ -28,7 +20,7 @@ class PJW extends BaseController
       'title' => 'Data Audit | Sistem internal Audit Yayasan Kesehatan Telkom'
     ];
 
-    return view('pjw/data_audit', $data);
+    return view('manajer/data_audit', $data);
   }
 
 

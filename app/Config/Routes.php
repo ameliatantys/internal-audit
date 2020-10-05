@@ -33,10 +33,22 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 
+// RUTE KHUSUS PENANGGUNG JAWAB AUDIT
 // route akses ke data audit
 $routes->get('pjw/', 'PJW::index');
 $routes->get('pjw/tambah_data_audit', 'PJW::tambah_data');
 $routes->get('pjw/data_audit', 'PJW::data_audit');
+
+// RUTE KHUSUS PIC 
+// route akses ke data audit
+$routes->get('pic/', 'PIC::index');
+$routes->get('pic/data_audit', 'PIC::data_audit');
+
+
+// RUTE KHUSUS PIC Manajer
+// route akses ke data audit
+$routes->get('manajer/', 'Manajer::index');
+$routes->get('manajer/data_audit', 'Manajer::data_audit');
 
 /**
  * --------------------------------------------------------------------
