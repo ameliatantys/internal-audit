@@ -25,7 +25,7 @@
   </button>
   <!-- Modal -->
   <div id="myModal" class="modal" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">Tambah Deskripsi</h5>
@@ -108,7 +108,14 @@
               <div class="col-sm-10">
                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
               </div>
-
+            </div>
+            <!-- Form Isi Akar Masalah -->
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Tenggat Waktu </label>
+              <div class="col-sm-10">
+                <input type="text" class="datepicker ">
+              </div>
+              <!-- Akhir Form Akar Masalah -->
             </div>
             <!-- Form Isi Status -->
             <div class="form-group row">
@@ -133,8 +140,9 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+
+          <button type="submit" class="btn btn-danger">Tambah Data</button>
+
         </div>
       </div>
     </div>
