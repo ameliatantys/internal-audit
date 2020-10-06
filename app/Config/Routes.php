@@ -42,7 +42,7 @@ $routes->get('pjw/data_audit', 'PJW::data_audit');
 // RUTE KHUSUS PIC 
 // route akses ke data audit
 $routes->get('pic/', 'PIC::index');
-$routes->get('pic/data_audit', 'PIC::data_audit');
+$routes->get('pic/data_audit', 'PIC ::data_audit');
 
 
 // RUTE KHUSUS PIC Manajer

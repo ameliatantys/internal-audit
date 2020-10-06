@@ -19,10 +19,126 @@
 <!-- Button tambah data -->
 <br>
 <div class="container">
-  <button type="button" class="btn btn-danger"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-danger"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
     </svg> Tambah Deskripsi
   </button>
+  <!-- Modal -->
+  <div id="myModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Tambah Deskripsi</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <!-- Form Isi TPK -->
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label" for="exampleFormControlSelect1">Unit</label>
+              <div class="col-sm-10">
+                <select class="form-control " id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi TPK -->
+            </div>
+            <!-- Form Isi PIC -->
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Kategori</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi PIC -->
+            </div>
+            <!-- Form Isi Jenis -->
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Jenis</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi Jenis -->
+            </div>
+            <!-- Form Isi Deskripsi -->
+            <div class="form-group row">
+              <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Deskripsi</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <!-- Akhir Form Isi Deskripsi -->
+            </div>
+            <!-- Form Isi Akar Masalah -->
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Akar Masalah</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+              <!-- Akhir Form Akar Masalah -->
+            </div>
+            <!-- Form Isi Tindakan Koreksi -->
+            <div class="form-group row">
+              <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Tindakan Koreksi</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+              </div>
+              <!-- Akhir Form Isi Tindakan Koreksi-->
+            </div>
+
+            <div class="form-group row">
+              <label for="exampleFormControlFile1" class="col-sm-2 col-form-label">Dokumen</label>
+              <div class="col-sm-10">
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+
+            </div>
+            <!-- Form Isi Status -->
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Status</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi Status -->
+            </div>
+            <!-- <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btn-danger">Tambah Data</button>
+                <button type="submit" class="btn btn-primary">Kembali</button>
+              </div>
+            </div> -->
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
