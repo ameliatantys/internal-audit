@@ -19,10 +19,119 @@
 <!-- Button tambah data -->
 <br>
 <div class="container">
-  <button type="button" class="btn btn-danger"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-danger"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
     </svg> Tambah Data
   </button>
+  <!-- Modal -->
+  <div id="myModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Tambah Judul</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <!-- Form Isi Area-->
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label" for="exampleFormControlSelect1">Area</label>
+              <div class="col-sm-10">
+                <select class="form-control " id="exampleFormControlSelect1">
+                  <option>Yakes Sumatera</option>
+                  <option>Yakes Jakarta dan Banten</option>
+                  <option>Yakes Jawa Barat</option>
+                  <option>Yakes Jawa Tengah</option>
+                  <option>Yakes Jawa Timur dan Bali Nusra</option>
+                  <option>Yakes Kalimantan</option>
+                  <option>Yakes Kepulauan</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi TPK -->
+            </div>
+            <!-- Form Isi TPK -->
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label" for="exampleFormControlSelect1">TPK</label>
+              <div class="col-sm-10">
+                <select class="form-control " id="exampleFormControlSelect1">
+                  <option>TPKK Sena</option>
+                  <option>TPKK Aur Duri</option>
+                  <option>TPKK Jendral Sudirman</option>
+                  <option>TPKK Percetakan Negara</option>
+                  <option>TPKK SLIPI</option>
+                  <option>TPKK Sentot Alibasah</option>
+                  <option>TPKK Divlat</option>
+                  <option>E-Medical Center Buah Batu</option>
+                  <option>TPKK Sriwijaya</option>
+                  <option>TPKK Despansar</option>
+                  <option>TPKK Kelintang</option>
+                  <option>TPKK Kanwa</option>
+                  <option>TPKK MT Haryono</option>
+                  <option>TPKK AP Pettarani</option>
+                  <option>TPKK Base-G</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi TPK -->
+            </div>
+            <!-- Form Isi PIC -->
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">PIC</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi PIC -->
+            </div>
+            <!-- Form Isi Jenis -->
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Jenis</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi Jenis -->
+            </div>
+            <!-- Form Isi Judul -->
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Judul</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="">
+              </div>
+              <!-- Akhir Form Isi Judul -->
+            </div>
+            <!-- Form Isi Status -->
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Status</label>
+              <div class="col-sm-10">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>OPEN</option>
+                  <option>CLOSE</option>
+                </select>
+              </div>
+              <!-- Akhir Form Isi Status -->
+          </form>
+        </div>
+        <div class="modal-footer">
+
+          <button type="submit" class="btn btn-danger">Tambah Data</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
 
